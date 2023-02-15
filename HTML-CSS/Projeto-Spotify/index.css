@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --cor-1:#1ed760;
+    --cor-2:white;
+    --cor-3:rgb(37, 37, 37);
+    --font-padrao:Arial, Verdana, Helvetica, Sans-serif;
+    --font-spotify:'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} /*Configurações gerais*/
+body{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-family: var(--font-padrao);
+    
+}/*Corpo*/
+header{
+    color: white;
+    background-color: black;
+    height: 100px;
+    border-bottom: solid var(--cor-1) 1px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}/*Cabeçalho*/
+.header{
+    color: var(--cor-2);
+    display: inline-flex;
+    place-items: center;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}/*Cabeçalho - edit 1*/
+.links_rs{
+    display: grid;
+    place-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}/*Links redes socias*/
+.links_rs > a{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+}/*Links redes socias - edit 1*/
+.links_rs > p{
+    margin: 5px;
+    padding-bottom: 10px;
+}/*Links redes socias - edit paragrafo*/
+#facebook{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#apple{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#google{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#num-tel{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+#facebook:hover{
+    color: white;
+    background-color: #5C7CFA;
+    transition-duration: 0.4s;
+}/*Links redes socias - facebook_efeito*/
+#apple:hover{
+    color: white;
+    background-color: rgba(64, 64, 64, 0.997);
+    transition-duration: 0.3s;
+}/*Links redes socias - apple_efeito*/
+#google:hover{
+    color: var(--cor-3);
+    background-color: white;
+    transition-duration: 0.3s;
+}/*Links redes socias - google_efeito*/
+#num-tel:hover{
+    background-color: rgba(64, 64, 64, 0.997);
+    transition-duration: 0.3s;
+}
+
+.input{
+    display: grid;
+    place-items: center;
+    padding: 15px;
+    color: white;    
+}/*box-input*/
+input{
+    display: grid;
+    place-items: center;
+    width: 400px;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}/*box-input - edit 1*/
+label{
+    color: rgb(90, 90, 90);
+}/*texto acima do input*/
+#esq_senha{
+    color: var(--cor-2);
+}/*Link "esqueceu sua senha"*/
+#esq_senha:hover{
+    color: #1bc155;
+    text-decoration: underline;
+}/*Link "esqueceu sua senha" - edit 1*/
+.login{
+    display: grid;
+    place-items: center;
+    margin: 5px;
+    padding: 5px;
+}/*Botão login*/
+.btn-sign{
+    color: var(--cor-2);
+    width: 200px;
+    padding: 15px;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: var(--cor-1);
+    font-family: var(--font-spotify);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}/*Botão-login - edit 1*/
+.btn-sign:hover{
+   color: white;
+   background-color: #1bc155;
+   transition-duration: 0.1s;
+   letter-spacing: 1.5px;
+}/*Botão-login - edit 1*/
+.cadastrar{
+    display: grid;
+    place-items: center;
+}/*Link cadastro*/
+.cadastro{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: var(--cor-1);
+    letter-spacing: 2px;
+    width: 400px;
+    border: solid 2px rgb(37, 37, 37);
+    border-width: 2px;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+    margin-top: 15px;
+}/*Link cadastro - edit 1*/
+.cadastro:hover{
+    border: solid 2px #1bc155;
+    transition-duration: 0.4s;
+}
+hr{
+    width: 400px;
+    margin: auto;
+}
