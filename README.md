@@ -1,4 +1,5 @@
-# Projetos_Github
-Projetos desenvolvidos apenas para praticar algumas linguagens.
-<a href="HTML-CSS/Projeto-Spotify/index.html" target="_blank" style="text-decoration: none; color: #1ed760;">Projeto - Spotify</a>
-<a href="HTML-CSS/Projeto-MeuPlayStation/index.html" target="_blank" style="text-decoration: none; color: #0241B5;">Projeto - MeuPlayStation</a>
+Hello, I'm Vinicius and I'm 21 years old. I'm new in the field
+development. I'm currently studying html and css but I have a basic understanding of python.
+
+Visit my link below with some projects I've done.
+https://viiniiciius14.github.io/Projetos_Github/home.html
