@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    text-decoration: none;
+}/*CONFIGURAÇÕES GERAIS*/
+
+/*CABEÇALHO*/
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgba(241, 242, 242, 0.415);
+    height: 125px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.393);
+    justify-content: space-around;
+}
+.container_head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(73, 73, 73);
+}
+.container_head > img{
+    width: 100px;
+    height: 100px;
+}
+.contato{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+.contato:hover{
+    transition-duration: 0.2s;
+    background-color: rgba(241, 242, 242, 0.493);
+}
+#img-redes{
+    height: 40px;
+    width: 40px;
+}
+
+/*CONTEÚDO PRINCIPAL*/
+main{
+    background-color: white;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+article{
+    font-family: 'Roboto Mono', monospace;
+    display: inline-flex;
+    place-items: center;
+}
+.projeto-1{
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    display: grid;
+    place-items: center;
+}
+.projeto-1:hover{
+    border-radius: 10px;
+    background-color: rgba(241, 242, 242, 0.405);
+    transition-duration: 0.3s;
+}
+.projeto-1 > h2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(73, 73, 73);
+    background-color: rgba(241, 242, 242, 0.501);
+    width: 300px;
+    text-align: center;
+    margin: 3px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.projeto-1 > p{
+    text-align: center;
+    margin: 5px;
+    padding-top: 5px;
+}
+.projeto-1 > a{
+    font-family: 'Oswald', sans-serif;
+    width: 250px;
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+.projeto-2{
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    display: grid;
+    place-items: center;
+}.projeto-2:hover{
+    border-radius: 10px;
+    background-color: rgba(241, 242, 242, 0.405);
+    transition-duration: 0.3s;
+}
+.projeto-2 > h2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(73, 73, 73);
+    background-color: rgba(241, 242, 242, 0.501);
+    width: 300px;
+    text-align: center;
+    margin: 3px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.projeto-2 > p{
+    text-align: center;
+    margin: 5px;
+    padding-top: 5px;
+}
+.projeto-2 > a{
+    font-family: 'Oswald', sans-serif;
+    width: 250px;
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+#Ps{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+#Ps:hover{
+    background-color: rgb(8, 8, 170);
+    font-weight: bolder;
+    transition-duration: 0.2s;
+}
+#Sp{
+    background-color: lawngreen;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#Sp:hover{
+    background-color: rgb(115, 224, 5);
+    font-weight: bolder;
+    transition-duration: 0.2s;
+}
+#img-1{
+    height: 350px;
+    width: 350px;
+}
+
+/*RODPÉ*/
+footer{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    background-color: rgba(241, 242, 242, 0.415);
+    height: 125px;
+    padding-top: 15px;
+}
+footer > p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(183, 182, 182);
+}
+hr{
+    width: 250px;
+    margin: auto;
+    color: #0097B2;
+}
+.container_footer{
+    margin: auto;
+    display: inline-flex;
+}
+.container_footer > img{
+    height: 100px;
+    width: 100px;
+}
