@@ -40,16 +40,16 @@ article{
 }
 .imagem{
     display: flex;
-    justify-content: center;
-    background-color: #364850;
+    justify-content: left;
+    background: linear-gradient(to right,#364850 60%, #425862);
     width: 600px;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border: none;
 }
 .Login{
     display: grid;
     place-items: center;
-    margin: 20px 0px 20px 20px;
+    margin: 20px;
     padding-top: 25px;
     text-align: center;
     color: var(--cor1);
@@ -61,11 +61,12 @@ input{
     height: 25px;
     border-radius: 5px;
     background-color: var(--cor4);
-    border: solid var(--cor5) 1px;
+    border: solid 1px var(--cor4);
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
     color: white;
+    box-shadow: 0px 1px 10px #364850;
 }
 .Login > a{
     display: flex;
@@ -79,6 +80,7 @@ input{
     letter-spacing: 1px;
     margin-top: 15px;
     margin-bottom: 5px;
+    box-shadow: 0px 1px 10px #364850;
 }
 .Login > h1{
     font-family: var(--font_destaque);
