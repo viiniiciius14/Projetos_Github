@@ -96,7 +96,7 @@ h2{
     padding: 10px;
     font-family: var(--font-play);
 }
-div.video{
+.video{
     position: relative;
     background-color: #ffffff;
     height: 0px;
@@ -106,7 +106,7 @@ div.video{
     margin-top: 5px;
     padding-bottom: 55%;
 }
-div.video > iframe{
+.video > iframe{
     position: absolute;
     top: 5%;
     left: 5%;
