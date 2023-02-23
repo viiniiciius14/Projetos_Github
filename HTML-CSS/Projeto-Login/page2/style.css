@@ -34,6 +34,7 @@ article{
     display: flow-root;
     justify-content: center;
     height: 500px;
+    height: auto;
     background-color: var(--cor5);
     margin: auto;
     padding: 20px;
@@ -100,7 +101,7 @@ p{
     color: var(--cor1);
 }
 .concluir{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 button{
     height: 35px;
