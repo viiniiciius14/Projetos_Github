@@ -1,5 +1,15 @@
-Hello, I'm Vinicius and I'm 21 years old. I'm new in the field
-development. I'm currently studying html, css and javascript but I have a basic understanding of python.
+<strong>Sobre mim</strong>
+Olá! Meu nome é Marcus vinicius, tenho 21 anos e sou um desenvolvedor front-end iniciante. Estou aprendendo a criar sites e aplicações web.
 
-Visit my link below with some projects I've done.
-https://viiniiciius14.github.io/Projetos_Github/home.html
+<strong>Minhas habilidades</strong>
+Atualmente, estou trabalhando no desenvolvimento de minhas habilidades em HTML, CSS e JavaScript. 
+
+<strong>Meus projetos</strong>
+Projetos vini - Este projeto fiz com inteções de praticar linguagem de marcação e por este motivo é um projeto bem básico. Contém links para outros projetos que fiz até o momento. https://viiniiciius14.github.io/Projetos_Github/home.html
+O que pretendo aprender
+React.js
+TypeScript
+
+<strong>Como me encontrar</strong>
+E-mail: viinii_hard14@hotmail.com
+Fique à vontade para entrar em contato comigo caso queira conversar sobre desenvolvimento front-end ou qualquer outro assunto relacionado à tecnologia, afinal conhecimento é sempre bem vindo. 
