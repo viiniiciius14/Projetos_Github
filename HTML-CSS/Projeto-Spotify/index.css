@@ -7,6 +7,9 @@
     --font-padrao:Arial, Verdana, Helvetica, Sans-serif;
     --font-spotify:'Roboto', sans-serif;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 *{
     margin: 0;
     padding: 0;

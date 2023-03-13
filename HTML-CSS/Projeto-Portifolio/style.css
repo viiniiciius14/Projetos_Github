@@ -196,11 +196,6 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-.logo > p{
-    font-size: 10px;
-    color: rgb(146, 146, 146);
-    font-weight: bold;
-}
 .contato {
     height: 300px;
     width: 40%;
@@ -494,12 +489,6 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
-    .logo > p{
-        font-size: 11px;
-        color: rgb(146, 146, 146);
-        font-weight: bold;
-        /* width: 132px; */
     }
     .contato {
         height: 300px;

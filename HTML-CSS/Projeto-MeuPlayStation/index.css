@@ -5,6 +5,9 @@
     src: url('fontes/zrnic/zrnic\ rg.ttf')format('opentype'); 
     font-weight: normal;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 *{
     margin: 0px;
