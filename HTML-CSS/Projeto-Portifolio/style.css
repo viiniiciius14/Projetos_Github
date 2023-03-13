@@ -252,6 +252,8 @@ footer {
  
 
 
+
+
 /* Estilos para telas maiores */
 @media only screen and (min-width: 701px) and (max-width: 1100px) { 
     #my_logo {
@@ -442,6 +444,8 @@ footer {
         flex-direction: column;
     }
 }
+
+
 
 /* Estilos para telas menores */
 @media only screen and (min-width: 385px) and (max-width: 700px) {
