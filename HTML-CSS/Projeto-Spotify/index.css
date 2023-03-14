@@ -15,11 +15,12 @@
     padding: 0;
     text-decoration: none;
 } /*Configurações gerais*/
-body{
+body, html{
+    width: 100vw;
+    height: 100vh;
     color: white;
     background-color: rgb(37, 37, 37);
     font-family: var(--font-padrao);
-    
 }/*Corpo*/
 header{
     color: white;
@@ -156,12 +157,12 @@ label{
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
+    text-shadow: black 0px 0px 10px;
 }/*Botão-login - edit 1*/
 .btn-sign:hover{
    color: white;
-   background-color: #1bc155;
-   transition-duration: 0.1s;
-   letter-spacing: 1.5px;
+   background-color: #19ae4d;
+   transition-duration: 0.2s;
 }/*Botão-login - edit 1*/
 .cadastrar{
     display: grid;
@@ -184,10 +185,26 @@ label{
     margin-top: 15px;
 }/*Link cadastro - edit 1*/
 .cadastro:hover{
+    color: #20a74f;
     border: solid 2px #1bc155;
     transition-duration: 0.4s;
 }
 hr{
     width: 400px;
     margin: auto;
+}
+
+@media only screen and (min-width: 385px) and (max-width: 700px) {
+    .links_rs > a {
+        width: 85vw;
+    }
+    .cadastro {
+        width: 85vw;
+    }
+    input {
+        width: 85vw;
+    } 
+    hr {
+        width: 85vw;
+    }
 }
