@@ -41,7 +41,7 @@ header {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 .title_head > h2 { 
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(117, 117, 117);
 }
 section{
@@ -464,7 +464,7 @@ footer {
         font-weight: bold;
     }
     .title_head > h2 { 
-        font-size: 15px;
+        font-size: 13px;
         color: rgb(104, 104, 104);
     }
     .conteudo-sobremim > h2{
