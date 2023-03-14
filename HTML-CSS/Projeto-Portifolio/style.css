@@ -530,7 +530,7 @@ footer {
     }
     #Md:hover{
         background-color: rgb(22, 22, 22);
-        box-shadow:  0px 0px 10px 5px #ffb6c1;
+        box-shadow:  0px 0px 10px 5px rgba(255, 182, 193, 0.504);
         transition: 0.2s;
         color: white;
         border-radius: 10px;
