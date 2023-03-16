@@ -38,7 +38,9 @@ footer{
        border-radius: 20px;
 }
 .operadores{
-      
+       width: 150px;
+       background-color: aqua;
+
 }
 .operadores > button{
        width: 60px;
@@ -64,4 +66,11 @@ footer{
        margin: 2px;
        border-radius: 10px;
        font-size: 15px;
+}
+.botões {
+       display: flex;
+       padding: 10px;
+       width: 500px;
+       height: 350px;
+       background-color: blueviolet;
 }
