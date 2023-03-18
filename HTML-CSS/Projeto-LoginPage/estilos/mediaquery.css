@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 TYPICAL DEVICE BREAKPOINT
 Mobile devices – 320px — 480px.
@@ -7,4 +8,48 @@ Desktops, large screens – 1025px — 1200px.
 Extra large screens, TV – 1201px, and more.
 */
 
-@charset "UTF-8";
+@media screen and (min-width: 481px) and (max-width: 1024px) { /*TABLET*/
+    main {
+        width: 80vw;
+        height: 500px;
+    }
+    .login {
+        width: 80vw;
+        height: 500px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1024px) { /*LAPTOP COM TELA PEQUENA*/
+    main {
+        width: 700px;
+        height: 500px;
+    }
+    .login {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){ /*DESCKTOP*/
+    main {
+        width: 500px;
+        height: 600px;
+        transition: width 1s, height 1s ease;
+    }
+    .login {
+        width: 500px;
+        height: 600px;
+        transition: width 1s, height 1s ease;
+    }
+}
+@media screen and (min-width: 1201px) { /*TELAS GRANDES*/
+    main {
+        width: 600px;
+        height: 600px;
+        transition: width 1s ease;
+    }
+    .login {
+        border-radius: 0px;
+        width: 500px;
+        height: 600px;
+    }
+}
