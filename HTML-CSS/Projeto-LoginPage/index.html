@@ -7,14 +7,32 @@
     <title>LoginPage</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
         <div class="login">
-            <div class="form">
-                <h1>Login</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci facilis qui vitae autem doloremque magni, quis culpa itaque esse officia quas ex 
-                perspiciatis dolorum aliquam expedita, obcaecati animi fugiat accusantium!</p>
+            <h1>Login</h1>
+            <h3>Seja bem vindo novamente!</h3>
+            <div class="formulario">
+                <form action="script.js" method="post" autocomplete="on">
+                    <div class="email">
+                        <label for="iemail"><span class="material-icons orange600">email</span></label>
+                        <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required maxlength="30">
+                    </div>
+                    <div class="senha">
+                        <label for="isenha"><span class="material-icons orange600">lock</span></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="15">
+                    </div>
+                    <div class="login_cadastro">
+                        <a href="esqueci.html">Esqueceu a senha?</a>
+                        <input type="submit" value="Entrar">
+                        <div class="hr">
+                            <hr> OU <hr>
+                        </div>
+                        <a href="cadastro.hmtl">Crie uma nova conta?</a>
+                    </div>
+                </form>
             </div>
         </div>
     </main>

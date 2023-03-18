@@ -22,7 +22,7 @@ main {
     align-items: center;
     height: 600px;
     width: 365px;
-    background-color: #ffffffbe;
+    background-color: #ffffff7c;
     border-radius: 10px;
     transition: width 1s, height 1s ease;
 }
@@ -31,14 +31,111 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
-    width: 365px;
-    border-radius: 10px;
+    height: 580px;
+    width: 350px;
+    border-radius: 0px;
     padding: 15px;
     background-color: white;
     transition: width 1s, height 1s ease;
 }
-.form {
+h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 15px;
+}
+
+
+.material-icons.orange600 { 
+    color: #3363e8; 
+    font-size: 20px;
+}
+.formulario {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email {
+    height: 50px;
+    padding: 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#iemail {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+#iemail:hover {
+    opacity: 50%;
+}
+.senha {
+    height: 50px;
+    padding: 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#isenha {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+#isenha:hover {
+    opacity: 50%;
+}
+
+
+.login_cadastro {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    display: block;
+    margin-top: 10px;
+}
+.login_cadastro > a {
+    font-size: 14px;
+    color: black;
+}
+.login_cadastro > a:hover {
+    opacity: 60%;
+    text-decoration: underline;
+    color: black;
+}
+.login_cadastro > input {
+    margin-top: 25px;
+    background-color: #3363e8;
+    color: white;
+    border: none;
+    height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.login_cadastro > input:hover {
+    background-color: #dedb24;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+.hr {
+    display: inline-flex;
+    gap: 5px;
+    color: #3363e8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr > a {
+    margin-top: 10px;
+}
+hr{
+    width: 100px;
+    margin: auto;
 }

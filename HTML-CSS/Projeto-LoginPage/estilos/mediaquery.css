@@ -14,8 +14,8 @@ Extra large screens, TV – 1201px, and more.
         height: 500px;
     }
     .login {
-        width: 80vw;
-        height: 500px;
+        width: 75vw;
+        height: 480px;
     }
 }
 @media screen and (min-width: 769px) and (max-width:1024px) { /*LAPTOP COM TELA PEQUENA*/
@@ -24,8 +24,11 @@ Extra large screens, TV – 1201px, and more.
         height: 500px;
     }
     .login {
-        width: 700px;
-        height: 500px;
+        width: 680px;
+        height: 480px;
+    }
+    .formulario {
+        width: 500px;
     }
 }
 
@@ -36,8 +39,8 @@ Extra large screens, TV – 1201px, and more.
         transition: width 1s, height 1s ease;
     }
     .login {
-        width: 500px;
-        height: 600px;
+        width: 480px;
+        height: 580px;
         transition: width 1s, height 1s ease;
     }
 }
@@ -48,8 +51,8 @@ Extra large screens, TV – 1201px, and more.
         transition: width 1s ease;
     }
     .login {
-        border-radius: 0px;
-        width: 500px;
-        height: 600px;
+        border-radius: 10px;
+        width: 550px;
+        height: 570px;
     }
 }
