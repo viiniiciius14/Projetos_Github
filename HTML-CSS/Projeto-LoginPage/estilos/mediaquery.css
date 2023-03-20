@@ -51,7 +51,6 @@ Extra large screens, TV – 1201px, and more.
         transition: width 1s ease;
     }
     .login {
-        border-radius: 10px;
         width: 550px;
         height: 570px;
     }
