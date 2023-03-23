@@ -207,6 +207,9 @@ footer {
 
 /*Configurações de responsividade*/
 @media only screen and (max-width: 700px) {
+    .Opções {
+        width: 80vw;
+    }
     #section1{
         height: 650px;
     }
