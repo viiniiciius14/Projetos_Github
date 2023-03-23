@@ -18,7 +18,8 @@ body , html{
 header {
     height: 200px;
     background-color: black;
-    background: url(../../imagens/background-header.jpg);
+    background-position: center right;
+    background: url(../../imagens/background-header.jpg) center top;
 }
 .logo_head > img {
     height: 200px;
@@ -28,7 +29,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.392);
+    background-color: rgba(0, 0, 0, 0.450);
     width: 100vw;
     height: 200px;
 }
@@ -37,6 +38,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 1s ease;
 }
 .demonstração > .conteudo_principal > h1 {
     text-align: center;
