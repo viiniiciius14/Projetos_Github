@@ -28,7 +28,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.450);
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.550);
     width: 100vw;
     height: 200px;
 }
@@ -102,10 +103,6 @@ section{
     font-size: 11px;
     background-color: #eeeeee;
     border: solid 1px #E1BE00;
-}
-.link > a:hover {
-    box-shadow: 0px 0px 4px #E1BE00;
-    transition: 0.4s;
 }
 .phone {
     display: flex;
@@ -208,5 +205,49 @@ footer {
 }
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 45px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+#itens {
+    transition: all 0.3s ease;
+}
+#burguer {
+    position: absolute;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+menu { 
+    display: none;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li {
+    display: inline-block;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 150px;
+    border-radius: 10px;
 }
  
