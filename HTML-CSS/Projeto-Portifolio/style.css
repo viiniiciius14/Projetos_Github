@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 450px;
     background: url(imagens/background-header.jpg);
     overflow: hidden;
 }
@@ -27,7 +27,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 500px;
+    height: 450px;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.748);
     text-align: center;
