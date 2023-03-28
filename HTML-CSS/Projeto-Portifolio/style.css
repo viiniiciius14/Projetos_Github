@@ -24,7 +24,7 @@ header {
     transition: .2s ease;
   }
   .shadow_head {
-    background-color: #000000cf;
+    background-color: #00000084;
   }
   .top_header {
     display: flex;
@@ -155,7 +155,7 @@ section{
     display: flex;
     height: 600px;
     gap: 45px;
-    background-color: black;
+    background-color: #0f0f0f;
 }
 .projetos > a {
     display: flex;
@@ -238,7 +238,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(22, 22, 22, 0.892);
+    background-color: #161616e3;
     height: 530px;
     width: 300px;
     border-radius: 8px;
