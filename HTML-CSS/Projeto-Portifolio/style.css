@@ -15,7 +15,7 @@ html, body {
 }
 header {
     box-sizing: border-box;
-    background: url(imagens/3_backgroundimg.jpg) center center;
+    background: url(imagens/background-header.jpg) center center;
     background-size: cover;
     transition: .2s ease;
   }

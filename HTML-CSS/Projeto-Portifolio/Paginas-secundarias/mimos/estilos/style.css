@@ -166,13 +166,13 @@ section{
     width: 150px;
     height: 50px;
     font-size: 11px;
-    background: #21c021;
+    background: lightpink;
     box-shadow: 1px 1px 5px gray;
 }
 
 .link > a:hover {
     transition: 0.3s ease;
-    background: #1ead1e;
+    background: #eea9b3;
     box-shadow: 1px 1px 10px gray;
 }
 .phone {

@@ -10,25 +10,32 @@
     <link rel="shortcut icon" href="../imagens/mylogowhite_250.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div class="shadow">
-            <div class="logo_head">
-                <img src="../imagens/mylogowhite_250.png" alt="my_logo">
-            </div>
+    <header id="header">
+        <div class="shadow_head">
+        <div class="top_header">
+            <a href="../../index.html" id="logo"><img src="../imagens/mylogowhite_250.png" alt="my_logo" id="my_logo"></a>
+            <button id="btn_menu">MENU<span id="hamburguer"></span></button>
+        </div>
+        <nav id="nav">
+            <ul id="menu">
+                <li><a href="/">SOBRE</a></li>
+                <li><a href="/">PROJETOS</a></li>
+                <li><a href="/">CONTATO</a></li>
+            </ul>   
+        </nav>
         </div>
     </header>
-    <main>
         <div class="demonstração">
             <div class="conteudo_principal">
                 <h1>Projeto Spotify</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quibusdam perspiciatis maiores modi accusantium obcaecati reprehenderit eos, fugit voluptatibus eaque quod perferendis nulla, cupiditate commodi nam facilis ut sed mollitia?</p>
                 <div class="link">
-                    <a href="../../../Projeto-Spotify/index.html">Acesse <br> PROJETO SPOTIFY</a>
+                    <a href="../../../Projeto-Spotify/index.html">Acesse <br>PROJETO SPOTIFY</a>
                 </div>
             </div>
             <div class="phone">
                 <div class="tela_phone">
-                    <iframe src="../Spotify/home.html" frameborder="0" id="tela"></iframe>
+                    <iframe src="home.html" frameborder="0" id="tela"></iframe>
                 </div>            
             </div> 
         </div>
@@ -55,5 +62,6 @@
             </div>
         </div>
     </footer>
+    <script src="../../script.js"></script>
 </body>
 </html>
