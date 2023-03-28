@@ -15,16 +15,12 @@ html, body {
 }
 header {
     box-sizing: border-box;
-    background-color: #ffffff27;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    background: url(imagens/background-header.jpg);
+    background: url(imagens/3_backgroundimg.jpg) center center;
+    background-size: cover;
     transition: .2s ease;
   }
   .shadow_head {
-    background-color: #00000084;
+    background-color: #000000a4;
   }
   .top_header {
     display: flex;
@@ -32,7 +28,7 @@ header {
     align-items: center;
     height: 150px;
     width: 100%;
-    background: linear-gradient(to bottom, black 50%, transparent 100%);
+    background: linear-gradient(to bottom, #000000bf 40%, transparent 100%);
   }
   #logo{
     font-weight: bold;
@@ -331,8 +327,8 @@ footer {
     flex-direction: column;
 }
 #my_logo {
-    height: 150px;
-    width:150px;
+    height: 180px;
+    width:180px;
 }
 
 ::-webkit-scrollbar {
