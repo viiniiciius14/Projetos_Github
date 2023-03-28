@@ -4,13 +4,107 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-html, body {
-    width: 100vw;
+  }
+  body{
     height: 100vh;
-    background-color: aliceblue;
+    width: 100%;
+    font-family: sans-serif;
+    background: linear-gradient(140deg, #0080ff -50%, #000000 50%, #ad04dc 150%) no-repeat;
+  }
+  header {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 1rem;
+    background-color: #ffffff27;
+    filter: blur(100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #logo{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    background-color: #ffffff36;
+    list-style: none;
+    gap: 3rem;
+    z-index: 1000;
+    visibility: hidden;
+    transition: 0.1s ease;
+  }
+  #menu li a {
+    display: block;
+    color: white;
+  }
+  #nav.active #menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    height: 40px;
+    transition: .5s ease;
+  }
+  #btn_menu {
+    display: flex;
+    gap: 10px;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #hamburguer {
+    width: 20px;
+    border-top: solid 2px;
+  }
+  #hamburguer::before, #hamburguer::after {
+    content: '';
+    background-color: currentColor;
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+  }
+  
+  #header.active #hamburguer{
+    border-top: 0px;
+  }
+  #header.active #hamburguer::before{
+    transform: rotate(135deg);
+  }
+  #header.active #hamburguer::after{
+    top: -7px;
+    transform: rotate(-135deg);
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#btn {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
-  
+#btn:hover{
+    transition: all 0.5s ease;
+    background-color: #ffffff27;
+}

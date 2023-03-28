@@ -12,16 +12,91 @@ html, body {
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 1px;
-
 }
 header {
+    box-sizing: border-box;
+    background-color: #ffffff27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: url(imagens/background-header.jpg);
+    transition: .2s ease;
+  }
+  .top_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background: #000000a5;
+  }
+  #logo{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  #menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px;
-    background: url(imagens/background-header.jpg);
-    overflow: hidden;
-}
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    background-color: #ffffff1a;
+    list-style: none;
+    gap: 3rem;
+    z-index: 1000;
+    visibility: hidden;
+    transition: 0.1s ease;
+  }
+  #menu li a {
+    display: block;
+    color: white;
+  }
+  #nav.active #menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    height: 40px;
+    transition: .5s ease;
+  }
+  #btn_menu {
+    display: flex;
+    gap: 10px;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #hamburguer {
+    width: 20px;
+    border-top: solid 2px;
+  }
+  #hamburguer::before, #hamburguer::after {
+    content: '';
+    background-color: currentColor;
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+  }
+  
+  #header.active #hamburguer{
+    border-top: 0px;
+  }
+  #header.active #hamburguer::before{
+    transform: rotate(135deg);
+  }
+  #header.active #hamburguer::after{
+    top: -7px;
+    transform: rotate(-135deg);
+  }
+
 .header_conteudo {
     display: flex;
     justify-content: center;
@@ -29,7 +104,7 @@ header {
     flex-direction: column;
     height: 450px;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.748);
+    background-color: #00000088;
     text-align: center;
     color: white;
 }
@@ -42,7 +117,7 @@ header {
 }
 .title_head > h2 { 
     font-size: 15px;
-    color: rgb(117, 117, 117);
+    color: #929292;
 }
 section{
     background-color: white;
@@ -251,8 +326,8 @@ footer {
     flex-direction: column;
 }
 #my_logo {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width:150px;
 }
 
 ::-webkit-scrollbar {
@@ -266,8 +341,8 @@ footer {
 /* Estilos para telas maiores */
 @media only screen and (min-width: 701px) and (max-width: 1100px) { 
     #my_logo {
-        height: 250px;
-        width: 250px;
+        height: 150px;
+        width: 150px;
     }
     .title_head > h1{
         font-size: 30px;
@@ -275,7 +350,7 @@ footer {
     }
     .title_head > h2 { 
         font-size: 15px;
-        color: rgb(104, 104, 104);
+        color: #929292;
     }
     .conteudo-sobremim {
         font-size: 20px;
@@ -460,7 +535,7 @@ footer {
 @media only screen and (min-width: 385px) and (max-width: 700px) {
     header {
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: center top;
     }
     .title_head > h1{
         font-size: 30px;
@@ -468,7 +543,7 @@ footer {
     }
     .title_head > h2 { 
         font-size: 13px;
-        color: rgb(104, 104, 104);
+        color: #929292;
     }
     .conteudo-sobremim > h2{
         font-size: 30px;
