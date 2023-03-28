@@ -536,7 +536,8 @@ footer {
 @media only screen and (min-width: 385px) and (max-width: 700px) {
     header {
         background-repeat: no-repeat;
-        background: url(imagens/second_backgroundimg.jpg) center center;
+        background: url(imagens/2_backgraundimg.jpg) center center;
+        background-size: cover;
     }
     .title_head > h1{
         font-size: 30px;
