@@ -185,14 +185,14 @@ section{
 .linguagens > ul {
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 40px;
 }
 .linguagens > ul > li {
     width: 50px;
     height: 50px;
     background: #f5f5f5;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: solid 1px black;
     cursor: pointer;
 }
@@ -625,6 +625,9 @@ footer {
     }
     .linguagens {
         width: 100%;
+    }
+    .linguagens > ul > li {
+        gap: 30px;
     }
     .projetos {
         display: flex;
