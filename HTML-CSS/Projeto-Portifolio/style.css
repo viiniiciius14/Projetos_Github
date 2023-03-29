@@ -104,7 +104,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 440px;
+    height: 400px;
     width: 100vw;
     text-align: center;
     color: white;
@@ -127,12 +127,17 @@ section{
     justify-content: center;
     align-items: center;
 }
+.sobremim {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
 .conteudo-sobremim{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
+    height: 500px;
     width: 600px;
     margin: auto;
     text-align: center;
@@ -147,6 +152,51 @@ section{
 .conteudo-sobremim > p{
     margin-top: 30px;
 }
+.habilidades {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-top: solid 1px #ddd;
+}
+.cont_habilidades {
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+    border-right: solid 1px #ddd;
+}
+.linguagens {
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linguagens > ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.linguagens > ul > li {
+    width: 50px;
+    height: 50px;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
 .projetos {
     display: flex;
     height: 600px;
@@ -260,7 +310,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(225, 225, 225, 0.556);
+    background-color: #e1e1e18e;
 }
 .social {
     height: 300px;
@@ -355,6 +405,15 @@ footer {
     }
     .conteudo-sobremim {
         font-size: 20px;
+    }
+    .habilidades {
+        flex-direction: column;
+    }
+    .cont_habilidades {
+        width: 100%;
+    }
+    .linguagens {
+        width: 100%;
     }
     .projetos {
         flex-direction: column;
@@ -547,6 +606,9 @@ footer {
         font-size: 13px;
         color: #929292;
     }
+    .conteudo-sobremim{ 
+        width: 100%;
+    }
     .conteudo-sobremim > h2{
         font-size: 30px;
         font-weight: bolder;
@@ -554,7 +616,16 @@ footer {
     .conteudo-sobremim > p{
         margin-top: 35px;
         font-size: 18px;
-    } 
+    }
+    .habilidades {
+        flex-direction: column;
+    }
+    .cont_habilidades {
+        width: 100%;
+    }
+    .linguagens {
+        width: 100%;
+    }
     .projetos {
         display: flex;
         flex-direction: column;
