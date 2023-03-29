@@ -622,12 +622,13 @@ footer {
     }
     .cont_habilidades {
         width: 100%;
+        border-right: 0px;
     }
     .linguagens {
         width: 100%;
     }
-    .linguagens > ul > li {
-        gap: 30px;
+    .linguagens > ul{
+        gap: 15px;
     }
     .projetos {
         display: flex;
