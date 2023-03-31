@@ -1,6 +1,5 @@
 const btn_menu = document.getElementById('btn_menu');
 const hamburguer = document.getElementById('hamburguer');
-const dark = document.getElementById('btn-back')
 
 function toggleMenu() {
   const nav= document.getElementById('nav');
@@ -14,3 +13,14 @@ function toggleHam() {
 
 btn_menu.addEventListener('click', toggleMenu);
 hamburguer.addEventListener('click', toggleHam);
+
+
+/*script tema site*/
+ const theme = document.getElementsById('btn_theme');
+
+ function toggleTheme() {
+  const dark = document.getElementsById('header');
+  dark.classList.toggle('active');
+ }
+
+theme.addEventListener('click', toggleTheme);

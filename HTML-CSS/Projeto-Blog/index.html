@@ -8,25 +8,57 @@
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/mediaquery.css">
 </head>
-<body>
-    <header>
-        <a href="/">LOGO</a>
+<body id="body">
+    <header id="header">
+        <a href="/"><img src="imagens/icons8-circuito-50.png" alt=""></a>
         <div class="btn_head">
-            <button id="btn_menu">Menu <span></span></button>
-            <button id="btn_back">color <span></span></button>
+            <button id="btn_menu"><span id="hamburguer"></span></button>
         </div>
     </header>
-    <main>
+    <main id="main">
         <div class="div-menu">
           <nav id="nav">
             <ul id="menu">
-                <li><a href="">Item 1</a></li>
-                <li><a href="">Item 2</a></li>
-                <li><a href="">Item 3</a></li>
+                <li><a href="" id="_a">Item 1</a></li>
+                <li><a href="" id="_a">Item 2</a></li>
+                <li><a href="" id="_a">Item 3</a></li>
             </ul>
           </nav>
+          <section class="section-1">
+            <div class="text_section1">
+                <h1>Site</h1>
+            </div>
+            <img src="imagens/pexels-designecologist-1779487.jpg" alt="img_library" id="img_livraria"/>
+            <img src="imagens/pexels-designecologist-1779487.jpg" alt="img_library" id="img_livraria-shadow"/>
+          </section>
+          <section class="section-2">
+            <h1>Conteudo Primario</h1>
+          </section>
+          <section class="section-3">
+            <h1>Conteudo Secundario</h1>
+          </section>
         </div>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="my_logo">
+          <img src="imagens/icons8-circuito-40.png" alt="">
+        </div>
+        <div class="links_footer">
+          <ul>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="redes_sociais">
+        <a href=""><img src="imagens/icons8-facebook-40.png" alt="facebook"></a>
+        <a href=""><img src="imagens/icons8-instagram-40.png" alt="instagram"></a>
+        <a href=""><img src="imagens/icons8-twitter-40.png" alt="twitter"></a>
+        <a href=""><img src="imagens/icons8-reproduzir-youtube-40.png" alt="youtube"></a>
+      </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
