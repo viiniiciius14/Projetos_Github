@@ -3,17 +3,19 @@
     margin: 0px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif, Courier, monospace, Times, serif;
-}
+}/*reset*/
 html {
     background-color: rgb(255, 255, 255);
 }
 body {
-	background: linear-gradient(135deg, #d454f4, #c969f9, #8204f1, #83a7d2, #df1ef4);
+	background: linear-gradient(135deg, #d96ff4, #c969f9, #8204f1);
 	background-size: 400% 400%;
 	animation: gradient 25s ease infinite;
 	height: auto;
   transition: all 0.3s ease;
-}
+}/*config-body*/
+
+/*animação background*/
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -24,7 +26,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+}/*config-header*/
 header {
     display: flex;
     justify-content: space-around;
@@ -32,6 +34,15 @@ header {
     height: 120px;
     color: black;
     background: white;
+}
+#header > a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #8204f1;
 }
 .btn_head {
     display: flex;
@@ -49,6 +60,7 @@ header {
     align-items: center;
    background-color: white;
 }
+/*config-botão-menu*/
 #hamburguer {
     color: #8204f1;
     width: 20px;
@@ -77,9 +89,9 @@ header {
     transform: rotate(-135deg);
     width: 16px;
   }
-
+/*config-menu*/
 #menu {
-    border-top: solid 1px #ddd;
+    border-top: solid 1px #edededaf;
     background-color: white;
     height: 40px;
     width: 0%;
@@ -90,9 +102,6 @@ header {
     visibility: hidden;
     z-index: 1000;
     transition: .3s ease;
-}
-#nav {
-  background-color: blue;
 }
 #nav.active #menu {
   transition: .5s ease;
@@ -122,11 +131,15 @@ li{
   padding: 10px;
   background-color: white;
   color: #8204f1;
+  border-bottom: transparent solid 2px;
 }
 #_a:hover {
+  transition: all 0.4s ease;
   background-color: #fbfbfb;
   border-bottom: #8204f1 solid 2px;
 }
+
+/*config-conteudo*/
 .section-1 {
     display: flex;
     box-sizing: border-box;
@@ -189,6 +202,7 @@ clip-path: polygon(100% 0%, 100% 30%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   align-items: center;
 }
 
+/*config-rodapé*/
 footer {
     height: auto;
     width: 100%;
@@ -206,7 +220,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100px;
-  width: 10%;
+  width: 10%
 }
 .links_footer {
   width: 0%;
@@ -241,23 +255,30 @@ footer {
   align-items: center;
   justify-content: center;
   height: 100px;
-  gap: 15px;
+  gap:30px;
 }
 .redes_sociais > h1 {
   color: white;
   font-size: 15px;
 }
-.redes_sociais > img {
-  width: 40px;
+.redes_sociais > a {
   height: 40px;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  border-bottom: transparent solid 1px;
+  border-top: transparent solid 1px;
 }
-
+.redes_sociais > a:hover{
+  transition: 0.5s ease;
+  border-bottom: white solid 1px;
+  border-top: white solid 1px;
+}
+#img_redes {
+  height: 40px;
+  width: 40px;
+}
 
 ::-webkit-scrollbar{
     width: 0px;
-}
-
-
-#body.active #header{
-  background-color: #131313;
-}
+}/*config-barra-scroll*/
