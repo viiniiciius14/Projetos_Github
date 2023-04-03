@@ -1,2 +1,41 @@
--webkit-clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-clip-path: polygon(100% 0%, 100% 30%, 100% 100%, 20% 100%, 0% 50%, 20% 0%);
+@media screen and (min-width: 600px) and (max-width: 800px){
+    #menu {
+        gap: 50px;
+    }
+    #img_livraria-shadow {
+        transition: all .1s ease;
+        background: url(../imagens/pexels-format-1029757.jpg) no-repeat;
+        background-size: cover;
+    }
+    .footer {
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width: 801px){
+    #menu {
+        gap: 50px;
+    }
+    #img_livraria{
+        display: flex;
+        width: 50%;
+        background: url(../imagens/pexels-format-1029757\ \(1\).jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    #img_livraria-shadow {
+        transition: all .1s ease;
+        opacity: 30%;
+        width: 50%;
+        background: url(../imagens/pexels-format-1029757\ \(1\).jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+        -webkit-clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        clip-path: polygon(100% 0%, 100% 30%, 100% 100%, 17% 100%, 0% 50%, 15% 0%);
+    }
+    .text_section1 {
+        width: 50%;
+    }
+    .footer {
+        justify-content: space-evenly;
+    }
+}
