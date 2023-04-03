@@ -125,9 +125,10 @@ li{
 }
 #_a{
   display: grid;
+  align-items: center;
   width: 100px;
+  height: 40px;
   box-sizing: border-box;
-  padding: 10px;
   background-color: white;
   color: #8204f1;
   border-bottom: transparent solid 2px;
