@@ -1,5 +1,6 @@
 const btn_menu = document.getElementById('btn_menu');
 const hamburguer = document.getElementById('hamburguer');
+const background = document.getElementById('change_background');
 
 function toggleMenu() {
   const nav= document.getElementById('nav');

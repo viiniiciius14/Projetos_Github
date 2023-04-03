@@ -35,7 +35,7 @@ header {
     color: black;
     background: white;
 }
-#header > a{
+header > a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,6 +102,7 @@ header {
     visibility: hidden;
     z-index: 1000;
     transition: .3s ease;
+    gap: 10px;
 }
 #nav.active #menu {
   transition: .5s ease;
@@ -115,7 +116,6 @@ header {
 ul {
     list-style: none;
     display: flex;
-    gap: 25px;
 }
 li{
   height: 40px;
@@ -148,14 +148,14 @@ li{
     width: 100%;
 }
 .text_section1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    height: 400px;
-    width: 500px;
-    margin-left: 50px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 400px;
+  width: 100%;
 }
 .text_section1 > h1 {
   font-size: 35px;
@@ -163,25 +163,27 @@ li{
   text-transform: uppercase;
 }
 #img_livraria {
+  display: none;
   position: absolute;
   right: 0px;
   float: right;
   height: 400px;
-  width: 850px;
-  opacity: 40%;
+  width: 50%;
+  opacity: 80%;
+  background: url(../imagens/pexels-designecologist-1779487.jpg);
   filter: grayscale(50%);
-  -webkit-clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  -webkit-clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   clip-path: polygon(100% 0%, 100% 30%, 100% 100%, 25% 100%, 0% 45%, 30% 0%);
 }
 #img_livraria-shadow {
     position: absolute;
     right: 0px;
     height: 400px;
-    width: 800px;
-    opacity: 80%;
+    width: 100%;
+    opacity: 20%;
     float: right;
-    -webkit-clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-clip-path: polygon(100% 0%, 100% 30%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    filter: grayscale(50%);
+    background: url(../imagens/pexels-designecologist-1779487.jpg) no-repeat;
 }
 
 .section-2 {
@@ -205,7 +207,6 @@ clip-path: polygon(100% 0%, 100% 30%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 /*config-rodapé*/
 footer {
     height: auto;
-    width: 100%;
     background-color: transparent;
 }
 .footer {
@@ -223,7 +224,6 @@ footer {
   width: 10%
 }
 .links_footer {
-  width: 0%;
   color: white;
 }
 .links_footer > ul{
@@ -255,7 +255,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 100px;
-  gap:30px;
+  gap:15px;
 }
 .redes_sociais > h1 {
   color: white;
