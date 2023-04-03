@@ -118,7 +118,6 @@ ul {
     display: flex;
 }
 li{
-  height: 40px;
   width: 100px;
   text-align: center;
   visibility: hidden;
@@ -213,7 +212,7 @@ footer {
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   border-bottom: solid 1px #dddddd84;
 }
 .my_logo {
