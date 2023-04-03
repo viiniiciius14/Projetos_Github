@@ -10,7 +10,7 @@ html {
 body {
 	background: linear-gradient(90deg, #cb8bf0, #b942ec,#8204f1, #7a85da, #7ba2eb);
 	background-size: 400% 400%;
-	animation: gradient 25s ease infinite;
+	animation: gradient 30s ease infinite;
 	height: auto;
   transition: all 0.3s ease;
 }/*config-body*/
