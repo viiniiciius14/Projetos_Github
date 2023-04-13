@@ -1,6 +1,6 @@
 const btn_menu = document.getElementById('btn_menu');
 const hamburguer = document.getElementById('hamburguer');
-const background = document.getElementById('change_background');
+const shadow_div = document.getElementById('img_livraria-shadow')
 
 function toggleMenu() {
   const nav= document.getElementById('nav');
