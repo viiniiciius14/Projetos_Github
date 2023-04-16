@@ -49,7 +49,8 @@ header {
     top: 0px;
 }
 #nav {
-    background-color: #f3f3f3e9;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     visibility: hidden;
     position: absolute;
     height: 200px;
@@ -62,7 +63,6 @@ ul > li {
     justify-content: center;
     width: 100%;
     height: 50px;
-    border-bottom: solid 1px #ddd;
 }
 ul > li:hover{
     transition: 0.3s ease;
