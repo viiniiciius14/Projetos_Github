@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -17,7 +20,7 @@ header {
     display: flex;
 }
 .header_cont-1 {
-    width: 20%;
+    width: 30%;
     height: 200px;
     display: flex;
     align-items: center;
@@ -25,7 +28,7 @@ header {
 }
 .header_cont-2 {
     height: 200px;
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,9 +50,9 @@ header {
 }
 #nav {
     background-color: #f3f3f3e9;
-    visibility: hidde;
+    visibility: hidden;
     position: absolute;
-    height: 250px;
+    height: 200px;
     width: 100%;
     top: 0px;
 }
@@ -63,11 +66,75 @@ ul > li {
 }
 ul > li:hover{
     transition: 0.3s ease;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #000;
 }
-
+.sugestão_produto {
+    height: 50px;
+    width: 100%;
+    background-color: #1d1d1d;
+}
 main {
-    background-color: azure;
+    background-color: #fff;
     width: 100%;
     height: 100vh;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.produto-1 {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.img_produto-1 {
+    background-color: aqua;
+    height: 300px;
+    width: 100%;
+}
+.nome_produto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    width: 100%;
+    height: 50px;
+}
+.valor_produto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 40px;
+    width: 100%;
+}
+.btn_buy {
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+}
+
+.produto-2 {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.produto-3 {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.produto-4 {
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
 }
