@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    background-attachment: fixed;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -83,7 +84,7 @@ header {
     background-color: #e8e8e8;
     visibility: hidden;
     position: absolute;
-    height: 0px;
+    max-height: 0px;
     width: 0%;
     top: 200px;
 }

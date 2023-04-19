@@ -7,14 +7,14 @@ btn_menu.onclick = function(){
   btn_menu.classList.toggle('active_1');
   if (btn_menu.classList.contains('active_1')) {
     menu.style.visibility = 'visible'
-    menu.style.height = '180px'
+    menu.style.maxHeight = '300px'
     menu.style.width = '100%'
     menu.style.transition = '.5s ease'
     ul.style.visibility = 'visible'
-    ul.style.transition = '.5s ease'
     
   }else {
-    menu.style.height = '0px'
+    ul.style.visibility = 'hidden'
+    menu.style.maxHeight = '0px'
     menu.style.width = '0%';
   }
   
