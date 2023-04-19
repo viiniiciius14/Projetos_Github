@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #f3f3f3;
+    background-color: #fff;
     height: 200px;
     display: flex;
 }
@@ -32,7 +32,11 @@ header {
     width: 70%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+}
+#logo_high {
+    height: 100px;
+    width: 200px;
 }
 #btn_menu {
     position: relative;
@@ -42,7 +46,7 @@ header {
     cursor: pointer;
     height: 35px;
     width: 40px;
-    background-color: #f3f3f3;
+    background-color: #fff;
     transition: .3s ease;
     border-radius: 10px;
   }
@@ -81,7 +85,7 @@ header {
     top: 0px;
 }
 #nav {
-    background-color: #e8e8e8;
+    background-color: #f7f7f7;
     visibility: hidden;
     position: absolute;
     max-height: 0px;
@@ -125,9 +129,15 @@ main {
     text-align: center;
 }
 .img_produto-1 {
-    background-color: #f3f3f3;
+    background-color: #fff;
     height: 300px;
     width: 100%;
+    background-size: cover;
+}
+.img_produto {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
 }
 .nome_produto-1 {
     display: flex;
@@ -135,6 +145,8 @@ main {
     justify-content: center;
     width: 100%;
     height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .valor_produto-1 {
     display: flex;
