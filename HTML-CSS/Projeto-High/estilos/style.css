@@ -89,7 +89,7 @@ header {
     visibility: hidden;
     position: absolute;
     max-height: 0px;
-    width: 0%;
+    width: 100%;
     top: 200px;
 }
 
@@ -101,16 +101,13 @@ ul > li {
     height: 50px;
     margin-bottom: 10px;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 ul > li:hover{
     transition: 0.3s ease;
     border-bottom: solid 1px #000;
     background-color: #ddd;
-}
-.sugestão_produto {
-    height: 50px;
-    width: 100%;
-    background-color: #1d1d1d;
 }
 main {
     background-color: #fff;

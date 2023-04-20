@@ -15,7 +15,6 @@ btn_menu.onclick = function(){
   }else {
     ul.style.visibility = 'hidden'
     menu.style.maxHeight = '0px'
-    menu.style.width = '0%';
   }
   
 }
