@@ -17,10 +17,9 @@ body {
 	background: linear-gradient(20deg, #191919 50%, #000 50%);
 	background-size: 200% 200%;
 	animation: gradient 50s ease infinite;
-	height: 100vh;
+    height: 100vh;
     display: grid;
     place-items: center;
-   transition: all 0.3s ease;
 }/*config-body*/
 
 /*animação background*/
@@ -34,6 +33,13 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+header {
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+    height: 50px;
+    width: 100vw;
 }
 main {
     border: 1px solid #00a2ff;
@@ -57,7 +63,6 @@ form {
     align-items: center;
     justify-content: center;
     color: #ddd;
-    visibility: visible;
 }
 input {
     background-color: #313131;
@@ -99,7 +104,6 @@ input[type=number]::-webkit-inner-spin-button {
 
 #msg_error {
     visibility: hidden;
-    transition: .3s ease;
     margin-top: 20px;
     font-size: .5em;
     border: solid 1px #e60808b0;
@@ -113,11 +117,10 @@ input[type=number]::-webkit-inner-spin-button {
     height: 500px;
     width: 450px;
     border-radius: 10px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    visibility: hidden;
     color: #ddd;
     padding: 25px;
 }
@@ -128,6 +131,19 @@ input[type=number]::-webkit-inner-spin-button {
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
-
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+}
+#theme {
+    cursor: pointer;
+    color: #00a2ff !important; 
+    margin-bottom: 15px;
+}
 
 
