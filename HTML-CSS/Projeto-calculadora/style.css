@@ -1,6 +1,7 @@
 *{
        padding: 0px;
        margin: 0px;
+       box-sizing: border-box;
 }
 
 body{
@@ -28,26 +29,26 @@ body{
 }
 .operadores{
        width: 150px;
-       background-color: aqua;
-
 }
 .operadores > button{
-       width: 60px;
-       height: 60px;
+       width: 75px;
+       height:75px;
        font-weight: bold;
-       background-color: rgb(55, 55, 55);
+       background-color: #f6c775;
        color: white;
        border: none;
        margin: 1px;
        border-radius: 10px;
        font-size: 15px;
+       float: right;
+       cursor: pointer;
 }
 .num{
        width: 300px;
 }
 .num > button{
-       width: 60px;
-       height: 60px;
+       width: 80px;
+       height: 80px;
        font-weight: bold;
        background-color: rgb(55, 55, 55);
        color: white;
@@ -55,11 +56,12 @@ body{
        margin: 2px;
        border-radius: 10px;
        font-size: 15px;
+       padding: 20px;
+       cursor: pointer;
 }
 .botões {
        display: flex;
        padding: 10px;
        width: 500px;
        height: 350px;
-       background-color: blueviolet;
 }

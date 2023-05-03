@@ -50,6 +50,7 @@ header {
   #menu li a {
     display: block;
     color: white;
+    scroll-behavior: smooth;
   }
   #menu li a:hover{
     transition: 0.3s;
