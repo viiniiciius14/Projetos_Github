@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+header {
+    position: absolute;
+    top: 0px;
+    height: 20%;
+    width: 100%;
+    background-color: azure;
+}
+main {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 400px;
+    width: 90%;
+}
+#password {
+    height: 25px;
+    width: 200px;
+}
+#checkbox > input {
+    height: 20px;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 20%;
+    width: 100%;
+    background-color: blueviolet;
+}

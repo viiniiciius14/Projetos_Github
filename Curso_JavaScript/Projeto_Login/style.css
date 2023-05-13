@@ -15,7 +15,7 @@
 
 body {
 	background: linear-gradient(20deg, #191919 50%, #000 50%);
-	background-size: 200% 200%;
+	background-size: 190% 190%;
 	animation: gradient 50s ease infinite;
     height: 100vh;
     display: grid;
@@ -50,12 +50,14 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
 }
 article {
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 10px;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 form {
     display: flex;
@@ -63,6 +65,7 @@ form {
     align-items: center;
     justify-content: center;
     color: #ddd;
+    transition: .3s ease;
 }
 input {
     background-color: #313131;
@@ -101,14 +104,24 @@ input[type=number]::-webkit-inner-spin-button {
     transition: 0.4s ease;
     background: #00a2ff;
 }
+#load {
+    color: #fff !important;
+    animation: spin .3s ease linear infinite !important;
+}
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
 
 #msg_error {
-    visibility: hidden;
+    display: block;
     margin-top: 20px;
     font-size: .5em;
     border: solid 1px #e60808b0;
     padding: 5px;
     color: #ddd;
+    opacity: 0%;
+    transition: .3s ease;
 }
 
 #finish {
@@ -145,5 +158,3 @@ footer {
     color: #00a2ff !important; 
     margin-bottom: 15px;
 }
-
-

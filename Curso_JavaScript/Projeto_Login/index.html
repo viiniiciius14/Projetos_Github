@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
-    <script src="testeJS.js"></script>
+    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
     <header>
     </header>
     <main>
-        <form action="https://formsubmit.co/vini@gmail.com" method="POST" autocomplete="off" id="form">
+        <form action="https://formsubmit.co/pro14vini@email.com" method="POST" autocomplete="off" id="form">
             <article>
                 <h1>Cadastro</h1>
             </article>
@@ -30,14 +30,14 @@
                 <label for="phone"><span class="material-icons orange600">phone</span></label>
                 <input type="tel" id="phone" placeholder="Celular" autocomplete="off" required maxlength="11" pattern="[0-9]{11}" name="phone">
             </div>
-        <input type="button" id="submit" onfocus="submitDados()" value="Concluir">
-        </form>
+        <input type="button" id="submit" onclick="submitDados()" value="Concluir">
         <article id="msg_error">
             <h2>Digite os campos corretamente!</h2>
         </article>
+    </form>
         <div id="finish">
             <h2 id="msg_finish"></h2>
-            <span class="material-icons orange600">done<span>
+            <span class="material-icons orange600" id="done">done<span>
         </div>
     </main>
     <footer>

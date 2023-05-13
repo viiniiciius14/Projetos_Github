@@ -40,8 +40,7 @@ function submitDados(event) {
 
     const erro = document.getElementById('msg_error');
     if (msgError) {
-        erro.style.visibility = 'visible';
-        erro.style.transition = '.3s ease';
+        erro.style.opacity = '100%';
         span.forEach(item => item.style.color = '#e60808b0');
     }else {
         const time1 = 2000;
@@ -51,22 +50,24 @@ function submitDados(event) {
             phone.style.borderColor = '#313131';
             span.forEach(item => item.style.color = '#00a2ff')
 
-            btn_concluido.value = 'Concluido'
-            btn_concluido.style.background = '#5eaa1fcd';
+            btn_concluido.value = 'Aguarde';
             btn_concluido.style.color = '#fff';
+            btn_concluido.style.background = '#00a2ff';
             btn_concluido.style.borderColor = '#fff';
             btn_concluido.style.transition = '.3s ease';
 
-            erro.style.visibility = 'hidden';
+            erro.style.opacity = '0%';
         }, time1)
 
         const time2 = 3500;
         const finish = document.getElementById('finish');
         const form = document.getElementById('form');
         setTimeout(function() {
+            erro.display = 'none';
             form.style.display = 'none';
             finish.style.display = 'flex';;
             msg_finish.innerHTML = `Muito bem ${name.value}, seu cadastro foi concluido.`;
+            span.forEach(item => item.style.color = '#30cc1c');
         }, time2)
     }
     console.log(`${name.value}, ${email.value}, ${phone.value}`);
